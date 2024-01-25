@@ -2,49 +2,21 @@
 body {
     font-family: 'Lato';
     background: #FFF;
-    height: 100%;
 }
 .container {
     margin: 0px auto;
     padding: auto;
     height: 100%;
-    width: 100%;
 }
-/* @media (max-width: 1860px) {
+
+/* @media (max-width: 1400px) {
     .container {
         .vertical {
-            height: 107vh;
+            height: 1170px;
     }
 }
-}
-@media (max-width: 1715px) {
-    .container {
-        .vertical {
-            height: 107.5vh;
-    }
-}
-}
-@media (max-width: 1600px) {
-    .container {
-        .vertical {
-            height: 107.9vh;
-    }
-}
-}
-@media (max-width: 1500px) {
-    .container {
-        .vertical {
-            height: 108.5vh;
-    }
-}
-}
-@media (max-width: 1400px) {
-    .container {
-        .vertical {
-            height: 109vh;
-    }
-}
-}
+} */
+/*
 @media (max-width: 1340px) {
     .container {
         .vertical {
@@ -112,7 +84,7 @@ body {
 @media (max-width: 1370px) {
     .container {
         .instrument {
-            margin: -60px 20px 90px 1350px;
+            margin: -60px 20px 90px 1230px;
         }
     }
 }
@@ -262,7 +234,7 @@ body {
     margin: 0px auto;
 }
 .mog { /* top right bottom left */
-    margin: 10px 0px 0px 10px;
+    margin: 10px 0px 0px 15px;
     fill: #FFF;
     stroke-width: 4px;
     stroke: #0029FF;
@@ -323,7 +295,7 @@ body {
     border-left: 6px solid #EFEEEE;
     width: 0px;
     margin-top: -182px;
-    height: 1170px; /* 106vh */
+    height: 1280px; /* 106vh */
 }
 .gorizontal {
     border-bottom: 5px solid #EFEEEE;
@@ -344,7 +316,10 @@ body {
 .datas,
 .link,
 .nastgrafic {
-    margin: 35px 26px 0px 18px;
+    margin: 35px 26px 0px 25px;
+}
+.datas {
+    margin-top: -41px; position: absolute;
 }
 /* .nastgrafic{margin-top: 5px; margin-left: 40px; width: 38px;
     height: 40px;
@@ -428,13 +403,13 @@ body {
     border-top: 2.7px dashed #C8C4C4;
     height: 10px;
     margin: 40px 180px 25px 170px;
-    width: 1300px;
+    width: 1150px;
 }
 .gorizontal-now { 
     border-top: 2.7px dashed #C8C4C4;
     height: 10px;
     margin: 62px 180px 25px 170px;
-    width: 1300px;
+    width: 1150px;
 }
 .gorizontal-new-text1:nth-child(1){
     margin: 0px 0px 0px 200px;
